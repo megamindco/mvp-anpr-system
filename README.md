@@ -1,6 +1,7 @@
 # Automatic Number Plate Recognition (ANPR) System
 This project implements an Automatic Number Plate Recognition (ANPR) system using YOLO for object detection and Tesseract for Optical Character Recognition (OCR). The system processes video frames in real-time, detects number plates, and performs OCR to extract the text from the detected plates.
 
+# [Colab Notebook](https://colab.research.google.com/drive/1VO7NmE9qhktgB87cljYgf9acsVZcDE5Q?usp=sharing)
 ## Features
 - Real-time object detection using YOLO.
 - Optical Character Recognition (OCR) using Tesseract.
