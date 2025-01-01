@@ -89,7 +89,9 @@ def perform_ocr_on_box(frame, box):
     return text
 ```
 - ### Main Real-time Processing
+
 ```Python
+
 def main_realtime(model_path="yolov5s.pt"):
     model = initialize_model(model_path)
     cap = cv2.VideoCapture(0)  # Open default webcam
@@ -125,6 +127,7 @@ def main_realtime(model_path="yolov5s.pt"):
 
 if __name__ == "__main__":
     main_realtime()
+
 ```
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
